@@ -1,0 +1,54 @@
+﻿@using StudentManagementSystem.Models
+@model IEnumerable<Service>
+
+@{
+    ViewBag.Title = "Service";
+}
+
+<div class="jumbotron">
+    <h1>Student Service Details</h1>
+    <div>
+        @using (Html.BeginForm("Enrollment", "Home", FormMethod.Post))
+        {
+            <h6> @Html.Label("Enter Student Id to search")</h6>
+            @Html.TextBox("txtStudentId")
+            <h6> @Html.Label("Enter School Year to search")</h6>
+            @Html.TextBox("txtSchoolYear")
+            <input type="submit" id="btnSubmit" name="Search" value="Search" />
+        }
+        @ViewBag.SearchText
+    </div>
+    <div style="margin-top:10px;">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Student Id</th>
+                    <th>School Year</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                </tr>
+            </thead>
+            @foreach (Service service in Model)
+            {
+                <tr>
+                    <td>
+                        @service.id
+                    </td>
+                    <td>
+                        @service.StudentId
+                    </td>
+                    <td>
+                        @service.SchoolYear
+                    </td>
+                    <td>
+                        @service.StartDate.ToString("MM/dd/yyyy")
+                    </td>
+                    <td>
+                        @service.EndDate.ToString("MM/dd/yyyy")
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

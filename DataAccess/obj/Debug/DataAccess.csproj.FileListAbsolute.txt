@@ -1,0 +1,15 @@
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\DataAccess.dll.config
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\DataAccess.dll
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\DataAccess.pdb
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\EntityFramework.dll
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\EntityModel.dll
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\EntityModel.pdb
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\EntityModel.dll.config
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\EntityFramework.xml
+D:\Learning\Test\StudentManagementSystem\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learning\Test\StudentManagementSystem\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+D:\Learning\Test\StudentManagementSystem\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\Learning\Test\StudentManagementSystem\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\Learning\Test\StudentManagementSystem\DataAccess\obj\Debug\DataAccess.dll
+D:\Learning\Test\StudentManagementSystem\DataAccess\obj\Debug\DataAccess.pdb

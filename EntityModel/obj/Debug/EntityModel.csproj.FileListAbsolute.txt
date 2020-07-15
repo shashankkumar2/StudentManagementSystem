@@ -1,0 +1,12 @@
+D:\Learning\Test\StudentManagementSystem\EntityModel\bin\Debug\EntityModel.dll.config
+D:\Learning\Test\StudentManagementSystem\EntityModel\bin\Debug\EntityModel.dll
+D:\Learning\Test\StudentManagementSystem\EntityModel\bin\Debug\EntityModel.pdb
+D:\Learning\Test\StudentManagementSystem\EntityModel\bin\Debug\EntityFramework.dll
+D:\Learning\Test\StudentManagementSystem\EntityModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learning\Test\StudentManagementSystem\EntityModel\bin\Debug\EntityFramework.xml
+D:\Learning\Test\StudentManagementSystem\EntityModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learning\Test\StudentManagementSystem\EntityModel\obj\Debug\EntityModel.csprojAssemblyReference.cache
+D:\Learning\Test\StudentManagementSystem\EntityModel\obj\Debug\EntityModel.csproj.CoreCompileInputs.cache
+D:\Learning\Test\StudentManagementSystem\EntityModel\obj\Debug\EntityModel.csproj.CopyComplete
+D:\Learning\Test\StudentManagementSystem\EntityModel\obj\Debug\EntityModel.dll
+D:\Learning\Test\StudentManagementSystem\EntityModel\obj\Debug\EntityModel.pdb

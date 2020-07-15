@@ -1,0 +1,53 @@
+﻿
+@using StudentManagementSystem.Models
+@model IEnumerable<Student>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Student Details</h1>
+    <div>
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+            <h3> @Html.Label("Enter text to search")</h3>
+            @Html.TextBox("txtSearch")
+            <input type="submit" id="btnSubmit" name="Search" value="Search" />
+        }
+        @ViewBag.SearchText
+    </div>
+    <div style="margin-top:10px;">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Date Of Birth</th>
+                    <th>Ssn</th>
+                </tr>
+            </thead>
+            @foreach (Student student in Model)
+            {
+                <tr>
+                    <td>
+                        @student.id
+                    </td>
+                    <td>
+                        @student.FirstName
+                    </td>
+                    <td>
+                        @student.LastName
+                    </td>
+                    <td>
+                        @student.DateOfBirth.ToString("MM/dd/yyyy")
+                    </td>
+                    <td>
+                        @student.Ssn
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
